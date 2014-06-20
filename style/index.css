@@ -1,0 +1,186 @@
+@CHARSET "GBK";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:12px;
+	width:1080px;
+	background:#fff;
+	color:#666;
+	margin:0 0 0 30px;
+}
+#input{
+	width:960px;
+	height:100px;
+	float:left;
+}
+#input input.text{
+	width:550px;
+	height:20px;
+	padding:5px;
+	margin:30px 0 0 0;
+	float:left;
+	border:1px solid #ccc;
+}
+#input input.button{
+	width:60px;
+	height:33px;
+	margin:30px 0 0 10px;
+	float:left;
+	cursor:pointer;
+	font-size:14px;
+	color:#666;
+	border:1px solid #ccc;
+}
+
+#input p{
+	width:250px;
+	height:30px;
+	float:right;
+	margin:40px 0 0 0;
+}
+#input p a{
+	color:#4697EE;
+	padding:5px;
+}
+#input p a.super{
+	padding:0 10px 0 0;
+}
+#input p a:hover{
+	color:#f60;
+
+}
+#output{
+	width:1080px;
+	float:left;
+}
+#output .list{
+	width:640px;
+	float:left;
+}
+#output .list table{
+	width:640px;
+
+}
+#output .list table tr td.title{
+	height:25px;
+	font-size:14px;
+	color:blue;
+	text-align:left;
+}
+#output .list table tr td.desc{
+	font-size:12px;
+	letter-spacing:1px;
+	color:#555;
+	padding:0 0 10px 0;
+}
+#output a{
+	color:#0000CC;
+	font-size:15px;
+	letter-spacing:1px;
+}
+#output .other{
+	width:340px;
+	height:500px;
+	float:right;
+}
+#output .other form{
+	padding:10px 0 0 0;
+}
+#output .other input.text{
+	width:150px;
+	height:22px;
+	border:1px solid #ADAFE8;
+	border-radius:5px;
+}
+#output .other input.submit{
+	color:#fff;
+	margin:0 0 0 10px;
+	height:25px;
+	width:35px;
+	border:1px solid #ccc;
+	border-radius:5px;
+	background:#7476DB;
+	cursor:pointer;
+}
+#output .other ul{
+	padding:5px 0 0 0;
+	list-style:none;
+	width:180px;
+}
+#output .other ul li{
+	float:left;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	background:#eee;
+	margin:5px;
+	border-radius:2px;
+	padding:0px 3px;
+}
+#output .other ul li:hover{
+	background:#ccc;
+	
+}
+#output .other a{
+	display:block;
+	height:20px;
+	font-size:12px;
+	color:#3B3B3B;
+	text-decoration:none;
+}
+#output .other a:hover{
+	color:#fff;
+}
+#output .other span{
+	color:#1AB267;
+}
+#output .other table{
+	margin:10px 0 0 0;
+	width:200px;
+	text-align:left;
+}
+#output .other table tr td{
+	border-bottom:1px dashed #666;
+
+}
+#output .page{
+	clear:both;
+	height:80px;
+}
+#output .page ul{
+	font-size:14px;
+	height:30px;
+	list-style:none;
+	padding:20px 0 0 0;
+}
+
+#output .page ul li{
+	float:left;
+	width:30px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border:1px solid #666;
+	margin:0 5px 0 0;
+	cursor:pointer;
+}
+#output .page ul li a{
+	display:block;
+	width:30px;
+	height:30px;
+	color:#333;
+	text-decoration:none;
+}
+#output .page ul li:hover{
+	background:#eee;
+	color:blue;
+	border-color:#008000;
+}
+
+
+
+
+
+

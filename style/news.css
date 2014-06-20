@@ -1,0 +1,49 @@
+@CHARSET "GBK";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:12px;
+	width:960px;
+	background:#fff;
+	color:#666;
+	margin:0 auto;
+}
+#input{
+	width:700px;
+	height:100px;
+	float:left;
+}
+#input input.text{
+	width:550px;
+	height:20px;
+	padding:5px;
+	margin:30px 0 0 0;
+	float:left;
+	border:1px solid #ccc;
+}
+#input input.button{
+	width:60px;
+	height:33px;
+	margin:30px 0 0 10px;
+	float:left;
+	cursor:pointer;
+	font-size:14px;
+	color:#666;
+	border:1px solid #ccc;
+}
+#desc{
+	font-size:14px;
+	letter-spacing:1px;
+	line-height:20px;
+	width:640px;
+	float:left;
+}
+#desc p:first-child{
+	font-size:12px;
+	color:#008000;
+}
+#desc p:last-child{
+	text-indent:31px;
+}

@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#EFEFEF;
+	font-size:14px;
+}
+#main{
+	width:95%;
+	margin:30px;
+}
+#main h1{
+	margin:20px 0;
+	padding:10px;
+	background:#fff;
+	border:1px solid #ccc;
+	font-size:22px;
+
+}
+#main dl{
+	padding:10px;
+	border:1px solid #ccc;
+	background:#fff;
+}
+#main dl dd{
+	margin:10px 0;
+}
+#main dl dd input.text{
+	width:100px;
+}
+#main dl dd input.submit{
+	width:45px;
+	height:30px;
+	border:1px solid #666;
+	border-radius:5px;
+	background:#fff;
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
